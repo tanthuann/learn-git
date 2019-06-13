@@ -1,5 +1,8 @@
+
+var chalk = require('chalk');
+
 function Tong(a,b) {
 	return a+b;	
 }
 
-console.log(Tong(2,3));
+console.log(chalk.red(Tong(2,3)));
